@@ -33,7 +33,7 @@ public class ContainsDuplicate {
     }
 
     /**
-     * This wd also have T>C as O(n).
+     * This wd also have T.C as O(n).
      * however this would provide more info like telling the frequency of repeated ints.
      */
     public static boolean checkDuplicateUsingMap(int[] input) {
