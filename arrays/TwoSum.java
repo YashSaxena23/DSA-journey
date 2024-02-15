@@ -24,7 +24,7 @@ public class TwoSum {
 
     private static int[] targetSum(List<Integer> nums, Integer target) {
         //two pointer will iterate thru the array 2 times
-        //o(n2) not appropriate.
+        //o(n^2) not appropriate.
         //if set.contains(target - i) return [i, set.indexOf(target-i)
         for (int i = 0 ; i<nums.size() ; i++) {
             int valueToCheck = target - nums.get(i);
@@ -34,8 +34,4 @@ public class TwoSum {
         }
         return new int[]{0,0};
     }
-
-    //One way would be using Hashmap again.
-    //key = the integer values in the list
-    //value = the index at which they are present.
 }

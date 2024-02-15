@@ -5,13 +5,16 @@ import java.util.HashSet;
 
 /**
  * Given an integer array nums,
- * return true if any value appears at least twice in the array, and return false if every element is distinct.
+ * return true if any value appears at least twice in the array,
+ * and return false if every element is distinct.
  */
 
-//in questions like these
-    //if i try iterating on list 2 times -> O(n2)
-    //sort and then check -> O(nlogn)
-    //hashing. use a hash map.
+/**
+ in questions like these
+ if i try iterating on list 2 times -> O(n2)
+ sort and then check -> O(nlogn)
+ hashing. use a hash map.
+ */
 public class ContainsDuplicate {
     public static void main(String[] args) {
         System.out.println(checkDuplicate(new int[]{1,1,1,3,3,4,3,2,4,2}));
